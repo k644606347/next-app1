@@ -1,0 +1,27 @@
+.select-wrap {
+    position: relative;
+}
+.options-pane {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #ccc;
+    min-width: 100%;
+    background-color: #fff;
+    color: #111;
+}
+@media (prefers-color-scheme: dark) {
+    .options-pane {
+        color: white;
+        background: black;
+    }
+  }
+  
+.options {
+}
+.option {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+}
